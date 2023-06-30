@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* ,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration:none;
+  list-style:none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: url(assets/bg.webp) no-repeat center/cover;
+  color: #f1f1f1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.bmi-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 40% auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #000000a7;
+    opacity: 0.9;
+    width:60%;
+}
+.bmi-form h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.bmi-form label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.bmi-form input{
+  width: 100%;
+  border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #000000a7;
+    color: #fff;
+}
+.button-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.hover-link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #2b0dec;
+    transition: all 0.3s ease-in-out;
+  }
+.hover-link:hover{
+  background-color: #fff;
+  color: #2b0dec;
+  transition: all 0.3s ease-in-out;
+}
+.hover-link:active{
+  transform: scale(0.8);
+}
+.custom-range{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #000000a7;
+    opacity: 0.9;
+    appearance: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+.custom-range::-webkit-slider-runnable-track{
+  background: linear-gradient(45deg,red,green ,yellow,red);
+  border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+}
