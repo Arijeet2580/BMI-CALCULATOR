@@ -12,5 +12,20 @@ The application also provides a feedback according to the BMI calculated. The fe
 - **Overweight**    if BMI is in between 25 and 29.9
 - **Obese**   if BMI is greater than 30
 ## Website Link
-![image](https://arijeet2580.github.io/BMI-CALCULATOR/)
+![image](assets/Screenshot%202023-07-01%20004510.png)
+<br>
 [click Here](https://arijeet2580.github.io/BMI-CALCULATOR/)
+## Built with
+- HTML
+- CSS
+- JavaScript
+## Features
+- Responsive
+- User Friendly
+- Easy to use
+## How to use
+- Enter the height in cm
+- Enter the weight in kg
+- Click on calculate
+- The BMI will be displayed
+- The feedback will be displayed
